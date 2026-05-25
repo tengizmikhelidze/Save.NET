@@ -15,11 +15,9 @@ public class CreateBookmark : IValidatableObject
     [UrlCustomValidator(ErrorMessage = "{0} is not a valid URL")]
     public string Url { get; set; }
     public string? Description { get; set; } = String.Empty;
-    [BindNever]
+    [BindNever] // that accepts in post body but not setting value from body ( instead of that just remove this proeprty from here its better but this is for learning )
     public DateTime CreatedAt { get; set; }  = DateTime.UtcNow;
-    [BindNever]
     public DateTime UpdatedAt { get; set; }  = DateTime.UtcNow;
-    [BindNever]
     public DateTime LastModifiedAt { get; set; }  = DateTime.UtcNow;
     public bool? IsDeleted { get; set; }
     public bool? IsPinned { get; set; }
