@@ -7,11 +7,11 @@ public class CreateBookmark : IValidatableObject
 {
     public int UserId { get; set; }
     public int BookmarkCategoryId { get; set; }
-    [Required(ErrorMessage = "Custom Required Message, {0} can't be empty or null")]
+    [Required(ErrorMessage = "{0} can't be empty or null")]
     [Display(Name = "Bookmark Title")]
     public string Title { get; set; }
     [Required]
-    [UrlCustomValidator(ErrorMessage = "Custom URL Validation Message, {0} is not a valid URL")]
+    [UrlCustomValidator(ErrorMessage = "{0} is not a valid URL")]
     public string Url { get; set; }
     public string? Description { get; set; } = String.Empty;
     public DateTime CreatedAt { get; set; }
@@ -32,7 +32,7 @@ public class CreateBookmark : IValidatableObject
         {
             if (IsPinned.HasValue && IsPinned.Value)
             {
-                yield return new ValidationResult("Custom Validation Message, A deleted bookmark cannot be pinned", new [] { nameof(IsPinned) });
+                yield return new ValidationResult("A deleted bookmark cannot be pinned", new [] { nameof(IsPinned) });
             }
         }
     }
