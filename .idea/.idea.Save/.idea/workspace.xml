@@ -15,9 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Queries/GetBookmarkById.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/Models/Bookmark/Queries/GetBookmarkById.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Controllers/Bookmark/BookmarkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/Controllers/Bookmark/BookmarkController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.pdb" afterDir="false" />
@@ -197,7 +195,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779711561095</updated>
       <workItem from="1779711562708" duration="9945000" />
-      <workItem from="1779723496035" duration="791000" />
+      <workItem from="1779723496035" duration="1110000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -263,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779723783022</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="custom object validation">
+      <option name="closed" value="true" />
+      <created>1779724297992</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779724297992</updated>
+    </task>
+    <task id="LOCAL-00010" summary="error messages">
+      <option name="closed" value="true" />
+      <created>1779724329273</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779724329274</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +295,9 @@
     <MESSAGE value="custom validation" />
     <MESSAGE value="custom date validator" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="custom object validation" />
+    <MESSAGE value="error messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="error messages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,7 +21,9 @@ public class BookmarkController : Controller
     }
 
     [HttpPost]
-    public IActionResult Post([FromBody] CreateBookmark createBookmark)
+    public IActionResult Post(
+        [FromBody] 
+        CreateBookmark createBookmark)
     {
         if (!ModelState.IsValid)
         {

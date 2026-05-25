@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Save.Validators;
 
 namespace Save.Models.Commands;
@@ -14,8 +15,11 @@ public class CreateBookmark : IValidatableObject
     [UrlCustomValidator(ErrorMessage = "{0} is not a valid URL")]
     public string Url { get; set; }
     public string? Description { get; set; } = String.Empty;
-    public DateTime CreatedAt { get; set; }
+    [BindNever]
+    public DateTime CreatedAt { get; set; }  = DateTime.UtcNow;
+    [BindNever]
     public DateTime UpdatedAt { get; set; }  = DateTime.UtcNow;
+    [BindNever]
     public DateTime LastModifiedAt { get; set; }  = DateTime.UtcNow;
     public bool? IsDeleted { get; set; }
     public bool? IsPinned { get; set; }
