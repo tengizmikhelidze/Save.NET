@@ -11,7 +11,7 @@ public class GetBookmarkById
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime UpdatedAt { get; set; }  = DateTime.UtcNow;
     public DateTime LastModifiedAt { get; set; }  = DateTime.UtcNow;
-    public bool IsDeleted { get; set; } = false;
-    public bool IsPinned { get; set; } = false;
+    public bool? IsDeleted { get; set; }
+    public bool? IsPinned { get; set; }
     public DateTime? PinnedDate { get; set; }
 }

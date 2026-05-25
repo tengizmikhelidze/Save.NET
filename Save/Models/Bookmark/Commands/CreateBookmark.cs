@@ -3,7 +3,7 @@ using Save.Validators;
 
 namespace Save.Models.Commands;
 
-public class CreateBookmark
+public class CreateBookmark : IValidatableObject
 {
     public int UserId { get; set; }
     public int BookmarkCategoryId { get; set; }
@@ -17,12 +17,23 @@ public class CreateBookmark
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }  = DateTime.UtcNow;
     public DateTime LastModifiedAt { get; set; }  = DateTime.UtcNow;
-    public bool IsDeleted { get; set; } = false;
-    public bool IsPinned { get; set; } = false;
+    public bool? IsDeleted { get; set; }
+    public bool? IsPinned { get; set; }
     public DateTime? PinnedDate { get; set; }
     
     public override string ToString()
     {
         return $"CreateBookmark: {UserId} - {Title} - {Url}";
+    }
+
+    public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+    {
+        if (IsDeleted.HasValue && IsDeleted.Value)
+        {
+            if (IsPinned.HasValue && IsPinned.Value)
+            {
+                yield return new ValidationResult("Custom Validation Message, A deleted bookmark cannot be pinned", new [] { nameof(IsPinned) });
+            }
+        }
     }
 }
