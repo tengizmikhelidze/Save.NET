@@ -1,0 +1,6 @@
+@Save_HostAddress = http://localhost:5289
+
+GET {{Save_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
