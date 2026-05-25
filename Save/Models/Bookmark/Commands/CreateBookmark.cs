@@ -14,7 +14,6 @@ public class CreateBookmark
     [UrlCustomValidator(ErrorMessage = "Custom URL Validation Message, {0} is not a valid URL")]
     public string Url { get; set; }
     public string? Description { get; set; } = String.Empty;
-    [DateRangeCustomValidator("22/05/2026", "26/05/2026")]
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }  = DateTime.UtcNow;
     public DateTime LastModifiedAt { get; set; }  = DateTime.UtcNow;
