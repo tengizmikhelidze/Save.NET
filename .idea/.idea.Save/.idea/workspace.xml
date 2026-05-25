@@ -15,8 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Save/Validators/UrlCustomValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Bookmark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/Models/Bookmark/Bookmark.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Save/Validators/DateRangeCustomValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Save.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.exe" afterDir="false" />
@@ -24,8 +25,6 @@
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.Up2Date" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.sourcelink.json" afterDir="false" />
@@ -34,8 +33,6 @@
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/refint/Save.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/refint/Save.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +93,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4e09f6ff7c574a38a6cb04165745f695f45908/0d/f9b8baf4/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6fa05d7dbf2e454ce78b261b422234da1f1ccedee678fd997e5ef4afe6df6e/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8c1fd899173ec4751d89bad68d53575da3b9edc4ec53cb458d5fc78387694/FromRouteAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a994bdc4c285d75e4a359cf40686c4eb86d6dbed705fe15096c7229d1d281/ValidationAttribute.cs" root0="SKIP_HIGHLIGHTING" />
@@ -103,6 +101,7 @@
     <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/Queries/GetBookmarkById.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save/Models/User/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save/Validators/DateRangeCustomValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save/Validators/UrlCustomValidator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -135,7 +134,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Save: http.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.Save: http.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -198,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1779711561095</updated>
-      <workItem from="1779711562708" duration="9337000" />
+      <workItem from="1779711562708" duration="9945000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -240,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779721715460</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="custom validation">
+      <option name="closed" value="true" />
+      <created>1779722904642</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779722904642</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +262,8 @@
     <MESSAGE value="custom required" />
     <MESSAGE value="validations" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="custom validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom validation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
