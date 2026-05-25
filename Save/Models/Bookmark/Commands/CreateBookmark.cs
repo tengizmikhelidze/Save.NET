@@ -6,9 +6,11 @@ public class CreateBookmark
 {
     public int UserId { get; set; }
     public int BookmarkCategoryId { get; set; }
-    [Required(ErrorMessage = "Custom Reuired Message")]
+    [Required(ErrorMessage = "Custom Required Message, {0} can't be empty or null")]
+    [Display(Name = "Bookmark Title")]
     public string Title { get; set; }
     [Required]
+    [Url]
     public string Url { get; set; }
     public string? Description { get; set; } = String.Empty;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
