@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Save.Validators;
 
 namespace Save.Models.Commands;
 
@@ -10,7 +11,7 @@ public class CreateBookmark
     [Display(Name = "Bookmark Title")]
     public string Title { get; set; }
     [Required]
-    [Url]
+    [UrlCustomValidator(ErrorMessage = "Custom URL Validation Message, {0} is not a valid URL")]
     public string Url { get; set; }
     public string? Description { get; set; } = String.Empty;
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

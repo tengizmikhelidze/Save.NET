@@ -19,6 +19,7 @@ C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Sav
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.csproj.CoreCompileInputs.cache
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.sourcelink.json
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -34,4 +35,3 @@ C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\ref
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.pdb
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.genruntimeconfig.cache
 C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\ref\Save.dll
-C:\Users\mixel\Desktop\Development\Learn\ASP.NET\Save\Save\obj\Debug\net10.0\Save.sourcelink.json
