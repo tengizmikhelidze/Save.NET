@@ -1,4 +1,6 @@
-﻿namespace Save.Models;
+﻿using System.Runtime.CompilerServices;
+
+namespace Save.Models;
 
 public class Bookmark
 {
@@ -12,4 +14,6 @@ public class Bookmark
     public DateTime UpdatedAt { get; set; }
     public DateTime LastModifiedAt { get; set; }
     public bool IsDeleted { get; set; }
+    public bool? IsPinned { get; set; }
+    public DateTime? PinnedDate { get; set; }    
 }
