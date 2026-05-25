@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Save.Models;
+using Save.Models.Commands;
 
 namespace Save.Controllers;
 
@@ -7,26 +9,36 @@ namespace Save.Controllers;
 public class BookmarkController : Controller
 {
     [HttpGet("{bookmarkId}")]
-    public IActionResult GetById(string bookmarkId)
+    public IActionResult GetById([FromRoute]int bookmarkId)
     {
-        return View();
+        return Ok();
     }
     
     [HttpGet("/api/v1/[controller]s")]
-    public IActionResult GetAll()
+    public IActionResult GetAll([FromQuery]Bookmark bookmark)
     {
-        return View();
+        return Ok($"{bookmark}");
+    }
+
+    [HttpPost]
+    public IActionResult Post([FromBody] CreateBookmark createBookmark)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        return Ok($"{createBookmark}");
     }
     
     [HttpGet("Categories")]
     public IActionResult GetAllCategories()
     {
-        return View();
+        return Ok();
     }
     
     [HttpGet("Category/{categoryId}")]
     public IActionResult GetCategory(int categoryId)
     {
-        return View();
+        return Ok();
     }
 }

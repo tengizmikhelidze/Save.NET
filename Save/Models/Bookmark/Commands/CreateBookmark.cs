@@ -1,15 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Runtime.CompilerServices;
 
-namespace Save.Models;
+namespace Save.Models.Commands;
 
-public class Bookmark
+public class CreateBookmark
 {
-    public int Id { get; set; }
-    [Required]
     public int UserId { get; set; }
     public int BookmarkCategoryId { get; set; }
-    [Required]
+    [Required(ErrorMessage = "Custom Reuired Message")]
     public string Title { get; set; }
     [Required]
     public string Url { get; set; }
@@ -20,9 +17,9 @@ public class Bookmark
     public bool IsDeleted { get; set; } = false;
     public bool IsPinned { get; set; } = false;
     public DateTime? PinnedDate { get; set; }
-
+    
     public override string ToString()
     {
-        return $"Bookmark: {Id} - {Title} - {Url}";
+        return $"CreateBookmark: {UserId} - {Title} - {Url}";
     }
 }
