@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mixel\\Desktop\\Development\\Learn\\ASP.NET\\Save\\Save\\Save.csproj": {}
+    "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save/Save.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mixel\\Desktop\\Development\\Learn\\ASP.NET\\Save\\Save\\Save.csproj": {
+    "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save/Save.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mixel\\Desktop\\Development\\Learn\\ASP.NET\\Save\\Save\\Save.csproj",
+        "projectUniqueName": "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save/Save.csproj",
         "projectName": "Save",
-        "projectPath": "C:\\Users\\mixel\\Desktop\\Development\\Learn\\ASP.NET\\Save\\Save\\Save.csproj",
-        "packagesPath": "C:\\Users\\mixel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mixel\\Desktop\\Development\\Learn\\ASP.NET\\Save\\Save\\obj\\",
+        "projectPath": "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save/Save.csproj",
+        "packagesPath": "/Users/temikhelidze/.nuget/packages/",
+        "outputPath": "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mixel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/temikhelidze/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://hdprepo.hq.tbc/repository/nuget-hosted-pre-release/index.json": {},
+          "https://hdprepo.hq.tbc/repository/nuget-hosted/index.json": {}
         },
         "frameworks": {
           "net10.0": {
@@ -86,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

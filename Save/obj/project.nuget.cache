@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "hr8rd9CLIsg=",
+  "dgSpecHash": "uujY7zpTcIQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mixel\\Desktop\\Development\\Learn\\ASP.NET\\Save\\Save\\Save.csproj",
+  "projectFilePath": "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save/Save.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mixel\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.7\\microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
-    "C:\\Users\\mixel\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
-    "C:\\Users\\mixel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
-    "C:\\Users\\mixel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
-    "C:\\Users\\mixel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
+    "/Users/temikhelidze/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "/Users/temikhelidze/.nuget/packages/microsoft.openapi/2.4.1/microsoft.openapi.2.4.1.nupkg.sha512",
+    "/Users/temikhelidze/.nuget/packages/swashbuckle.aspnetcore.swagger/10.1.7/swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "/Users/temikhelidze/.nuget/packages/swashbuckle.aspnetcore.swaggergen/10.1.7/swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "/Users/temikhelidze/.nuget/packages/swashbuckle.aspnetcore.swaggerui/10.1.7/swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512"
   ],
   "logs": []
 }
