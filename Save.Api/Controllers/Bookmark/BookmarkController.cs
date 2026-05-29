@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Save.Application.Bookmark.Commands.Create;
 using Save.Application.Bookmark.Queries;
@@ -7,10 +8,17 @@ using Save.Domain.Models.Bookmark;
 [Route("api/v1/[controller]")]
 public class BookmarkController : Controller
 {
+    private IWebHostEnvironment _environment;
+    
+    public BookmarkController(IWebHostEnvironment environment)
+    {
+        _environment = environment;
+    }
+    
     [HttpGet("{bookmarkId}")]
     public IActionResult GetById([FromRoute]int bookmarkId)
     {
-        return Ok();
+        return Ok(_environment.EnvironmentName);
     }
     
     [HttpGet("/api/v1/[controller]s")]
