@@ -23,13 +23,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Save.Domain/Models/Bookmark/Bookmark.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Save.Domain/Models/Bookmark/BookmarkCategory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Save.Domain/Models/User/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Save.Application/Bookmark/Commands/Create/CreateBookmarkCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/Save.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Save.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Save.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Save.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/Save.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/Save.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Persistence/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Save.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Controllers/Bookmark/BookmarkController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Bookmark.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/BookmarkCategory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Models/Bookmark/Queries/GetBookmarkById.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Models/User/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Save.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Save.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Validators/DateRangeCustomValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/Validators/UrlCustomValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Save.staticwebassets.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/bin/Debug/net10.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/.NETCoreApp,Version=v10.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/ref/Save.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/refint/Save.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/staticwebassets.build.endpoints.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/staticwebassets.build.json.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/swae.build.ex.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +156,9 @@
       <entry key="chat-panel" value="Auto" />
     </selectedModels>
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="20" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
@@ -96,6 +180,8 @@
 }]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Sace.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Application/Bookmark/Commands/Create/CreateBookmarkCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Domain/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Domain/Models/Bookmark/Bookmark.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,12 +191,6 @@
     <setting file="file://$PROJECT_DIR$/Save.Domain/Models/User/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Persistence/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/BookmarkCategory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/Queries/GetBookmarkById.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Save/Models/User/User.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Save/Validators/DateRangeCustomValidator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Save/Validators/UrlCustomValidator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -140,6 +220,7 @@
     </option>
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -169,7 +250,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.Save: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Save.Api: http">
     <configuration name="Save: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Save/Save.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />
@@ -340,7 +421,7 @@
       <updated>1779711561095</updated>
       <workItem from="1779711562708" duration="9945000" />
       <workItem from="1779723496035" duration="1110000" />
-      <workItem from="1780036481202" duration="6590000" />
+      <workItem from="1780036481202" duration="7721000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -430,7 +511,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780051200416</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="models">
+      <option name="closed" value="true" />
+      <created>1780052166480</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1780052166480</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +551,8 @@
     <MESSAGE value="custom object validation" />
     <MESSAGE value="error messages" />
     <MESSAGE value="clean architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean architecture" />
+    <MESSAGE value="models" />
+    <option name="LAST_COMMIT_MESSAGE" value="models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

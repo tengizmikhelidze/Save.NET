@@ -1,0 +1,12 @@
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/bin/Debug/net10.0/Save.Application.deps.json
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/bin/Debug/net10.0/Save.Application.dll
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/bin/Debug/net10.0/Save.Application.pdb
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfoInputs.cache
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfo.cs
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.csproj.CoreCompileInputs.cache
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.sourcelink.json
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.dll
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/refint/Save.Application.dll
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/Save.Application.pdb
+/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET/Save.Application/obj/Debug/net10.0/ref/Save.Application.dll
