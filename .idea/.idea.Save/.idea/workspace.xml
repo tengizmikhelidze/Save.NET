@@ -23,7 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Save.Api/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,7 +336,7 @@
       <updated>1779711561095</updated>
       <workItem from="1779711562708" duration="9945000" />
       <workItem from="1779723496035" duration="1110000" />
-      <workItem from="1780036481202" duration="7942000" />
+      <workItem from="1780036481202" duration="11645000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -441,7 +442,23 @@
       <option name="project" value="LOCAL" />
       <updated>1780053468894</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="launch swagger by defualt">
+      <option name="closed" value="true" />
+      <created>1780053532355</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1780053532355</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init">
+      <option name="closed" value="true" />
+      <created>1780053537326</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1780053537326</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +483,6 @@
     <MESSAGE value="pinneddate" />
     <MESSAGE value="custom required" />
     <MESSAGE value="validations" />
-    <MESSAGE value="init" />
     <MESSAGE value="custom validation" />
     <MESSAGE value="custom date validator" />
     <MESSAGE value="fix" />
@@ -475,7 +491,9 @@
     <MESSAGE value="clean architecture" />
     <MESSAGE value="models" />
     <MESSAGE value="cqrs for bookmark" />
-    <option name="LAST_COMMIT_MESSAGE" value="cqrs for bookmark" />
+    <MESSAGE value="launch swagger by defualt" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
