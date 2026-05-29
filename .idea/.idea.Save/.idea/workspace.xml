@@ -23,20 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Save.Domain/Models/Bookmark/Bookmark.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Save.Domain/Models/Bookmark/BookmarkCategory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Save.Domain/Models/User/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Save.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Debug/net10.0/Save.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/Save.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +88,23 @@
     &quot;assignee&quot;: &quot;tengizmikhelidze&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tengizmikhelidze/Save.NET.git&quot;,
-    &quot;accountId&quot;: &quot;34f15025-d664-4b97-a450-1286245c768e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tengizmikhelidze/Save.NET.git",
+    "accountId": "bcc41ea1-e403-410f-9d90-2e4a9354deea"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Sace.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Domain/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Domain/Models/Bookmark/Bookmark.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Domain/Models/Bookmark/BookmarkCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Domain/Models/Bookmark/bookmark.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Domain/Models/Bookmark/bookmarkCategory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Domain/Models/User/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Persistence/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/BookmarkCategory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/Commands/CreateBookmark.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save/Models/Bookmark/Queries/GetBookmarkById.cs" root0="FORCE_HIGHLIGHTING" />
@@ -120,6 +122,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3EDSHgCvhkWmEGaLRL3WXu0opCV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectSessionTemplates">
     <option name="panelTemplate">
       <template>
@@ -335,7 +340,7 @@
       <updated>1779711561095</updated>
       <workItem from="1779711562708" duration="9945000" />
       <workItem from="1779723496035" duration="1110000" />
-      <workItem from="1780036481202" duration="5433000" />
+      <workItem from="1780036481202" duration="6590000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -417,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779724329274</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="clean architecture">
+      <option name="closed" value="true" />
+      <created>1780051200416</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1780051200416</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +461,8 @@
     <MESSAGE value="fix" />
     <MESSAGE value="custom object validation" />
     <MESSAGE value="error messages" />
-    <option name="LAST_COMMIT_MESSAGE" value="error messages" />
+    <MESSAGE value="clean architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean architecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
