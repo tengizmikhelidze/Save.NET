@@ -23,23 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Save.Api/Models/BookmarkConfigOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/ref/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/ref/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/refint/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/refint/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Save.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/appsettings.Development.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +345,7 @@
       <workItem from="1779723496035" duration="1110000" />
       <workItem from="1780036481202" duration="11983000" />
       <workItem from="1780308349973" duration="575000" />
-      <workItem from="1780309010074" duration="3588000" />
+      <workItem from="1780309010074" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -531,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780311957481</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="configuration options as service">
+      <option name="closed" value="true" />
+      <created>1780312736631</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1780312736631</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +564,8 @@
     <MESSAGE value="env name" />
     <MESSAGE value="configuration" />
     <MESSAGE value="read from configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="read from configuration" />
+    <MESSAGE value="configuration options as service" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration options as service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
