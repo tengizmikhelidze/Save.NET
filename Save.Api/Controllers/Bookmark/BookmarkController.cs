@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
+using Save.Api.Models;
 using Save.Application.Bookmark.Commands.Create;
 using Save.Application.Bookmark.Queries;
 using Save.Domain.Models.Bookmark;
@@ -8,19 +10,22 @@ using Save.Domain.Models.Bookmark;
 [Route("api/v1/[controller]")]
 public class BookmarkController : Controller
 {
-    private IWebHostEnvironment _environment;
-    private IConfiguration _configuration;
+    private readonly IWebHostEnvironment _environment;
+    private readonly BookmarkConfigOptions _bookmarkConfigOptions;
     
-    public BookmarkController(IWebHostEnvironment environment, IConfiguration configuration)
+    public BookmarkController(
+        IWebHostEnvironment environment
+        , IOptions<BookmarkConfigOptions> bookmarkConfigOptions
+        )
     {
         _environment = environment;
-        _configuration = configuration;
+        _bookmarkConfigOptions = bookmarkConfigOptions.Value;
     }
     
     [HttpGet("{bookmarkId}")]
     public IActionResult GetById([FromRoute]int bookmarkId)
     {
-        return Ok(_environment.EnvironmentName + " " + _configuration.GetSection("Bookmark").GetValue<string>("setting1", "setting1") + " " + bookmarkId);
+        return Ok(_environment.EnvironmentName + " " + _bookmarkConfigOptions.setting1 + " " + bookmarkId);
     }
     
     [HttpGet("/api/v1/[controller]s")]

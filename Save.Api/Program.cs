@@ -1,7 +1,10 @@
+using Save.Api.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.Configure<BookmarkConfigOptions>(builder.Configuration.GetSection("Bookmark"));
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();

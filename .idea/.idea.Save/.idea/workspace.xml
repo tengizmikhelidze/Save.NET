@@ -23,14 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Save.Api/Models/BookmarkConfigOptions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.sourcelink.json" afterDir="false" />
@@ -38,7 +39,7 @@
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/refint/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/refint/Save.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rpswa.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rpswa.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Save.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +113,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Sace.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Save.Api/Models/BookmarkConfigOptions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Application/Bookmark/Commands/Create/CreateBookmarkCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Domain/Class1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -123,7 +125,9 @@
     <setting file="file://$PROJECT_DIR$/Save.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Persistence/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/65fd517760b6af8937080f9556679b3b29d5fe2cfc2aeed15e1c6e3d7a7e/WebApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/833a5d70d1ded6f5dd196030651820dbd17f318750135a16774aa441b9aa5163/OptionsServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ae62ba349516ed6ffc77677754e3f3813337894f9d942dfa80ae3055c49/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf9021a960b74107a7e141aa06bc9d8a0a53c929178c2fb95b1597be8af8dc/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -159,7 +163,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.Save.Api: http.executor": "Debug",
+    ".NET Launch Settings Profile.Save.Api: http.executor": "Run",
     ".NET Launch Settings Profile.Save: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -357,7 +361,7 @@
       <workItem from="1779723496035" duration="1110000" />
       <workItem from="1780036481202" duration="11983000" />
       <workItem from="1780308349973" duration="575000" />
-      <workItem from="1780309010074" duration="2841000" />
+      <workItem from="1780309010074" duration="3588000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -519,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780311407066</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="read from configuration">
+      <option name="closed" value="true" />
+      <created>1780311957481</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1780311957481</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +571,8 @@
     <MESSAGE value="new gitignore" />
     <MESSAGE value="env name" />
     <MESSAGE value="configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuration" />
+    <MESSAGE value="read from configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="read from configuration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
