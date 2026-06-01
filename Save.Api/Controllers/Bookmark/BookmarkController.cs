@@ -20,7 +20,7 @@ public class BookmarkController : Controller
     [HttpGet("{bookmarkId}")]
     public IActionResult GetById([FromRoute]int bookmarkId)
     {
-        return Ok(_environment.EnvironmentName + " " + _configuration.GetValue<string>("Bookmark", "default") + " " + bookmarkId);
+        return Ok(_environment.EnvironmentName + " " + _configuration.GetSection("Bookmark").GetValue<string>("setting1", "setting1") + " " + bookmarkId);
     }
     
     [HttpGet("/api/v1/[controller]s")]
