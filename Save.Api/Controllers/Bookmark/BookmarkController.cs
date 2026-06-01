@@ -9,17 +9,18 @@ using Save.Domain.Models.Bookmark;
 public class BookmarkController : Controller
 {
     private IWebHostEnvironment _environment;
+    private IConfiguration _configuration;
     
-    public BookmarkController(IWebHostEnvironment environment, IHost host)
+    public BookmarkController(IWebHostEnvironment environment, IConfiguration configuration)
     {
         _environment = environment;
+        _configuration = configuration;
     }
     
     [HttpGet("{bookmarkId}")]
     public IActionResult GetById([FromRoute]int bookmarkId)
     {
-        
-        return Ok(_environment.EnvironmentName);
+        return Ok(_environment.EnvironmentName + " " + _configuration.GetValue<string>("Bookmark", "default") + " " + bookmarkId);
     }
     
     [HttpGet("/api/v1/[controller]s")]
