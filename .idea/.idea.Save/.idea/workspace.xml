@@ -23,18 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8f21f5e-a38f-4e75-bb0a-2af1540b7bf4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Save/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/bin/Debug/net10.0/Save.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/Save.Api.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/ref/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/ref/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/refint/Save.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/refint/Save.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Api/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/obj/Debug/net10.0/Save.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/Debug/net10.0/Save.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Infrastructure/obj/Debug/net10.0/Save.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Persistence/obj/Debug/net10.0/Save.Persistence.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.Persistence/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Save.Persistence/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Save.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Save.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +82,20 @@
       <entry key="_C:/Users/mixel/Desktop/Development/Learn/ASP.NET/Save" value="3EDSHgCvhkWmEGaLRL3WXu0opCV" />
     </persistenceIdMap>
   </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Ask" />
+  </component>
   <component name="CopilotUserSelectedModel">
     <selectedModels>
-      <entry key="agent-panel" value="Auto" />
-      <entry key="chat-panel" value="Auto" />
+      <entry key="agent-panel" value="GPT-5.4 mini" />
+      <entry key="chat-panel" value="GPT-5.4 mini" />
     </selectedModels>
   </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="20" />
+    <option name="cachedIndexableFilesCount" value="18" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -96,12 +107,12 @@
     &quot;assignee&quot;: &quot;tengizmikhelidze&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/tengizmikhelidze/Save.NET.git",
-    "accountId": "bcc41ea1-e403-410f-9d90-2e4a9354deea"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tengizmikhelidze/Save.NET.git&quot;,
+    &quot;accountId&quot;: &quot;bcc41ea1-e403-410f-9d90-2e4a9354deea&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Sace.Application/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -115,6 +126,8 @@
     <setting file="file://$PROJECT_DIR$/Save.Domain/Models/User/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Save.Persistence/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/65fd517760b6af8937080f9556679b3b29d5fe2cfc2aeed15e1c6e3d7a7e/WebApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ae62ba349516ed6ffc77677754e3f3813337894f9d942dfa80ae3055c49/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -148,33 +161,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Save.Api: http.executor": "Run",
-    ".NET Launch Settings Profile.Save: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Save.Api: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Save: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/temikhelidze/Documents/Projects/ASP.NET/Save.NET&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Save.Api: http">
     <configuration name="Save: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Save/Save.csproj" />
@@ -347,6 +360,8 @@
       <workItem from="1779711562708" duration="9945000" />
       <workItem from="1779723496035" duration="1110000" />
       <workItem from="1780036481202" duration="11983000" />
+      <workItem from="1780308349973" duration="575000" />
+      <workItem from="1780309010074" duration="809000" />
     </task>
     <task id="LOCAL-00001" summary="bookmarks">
       <option name="closed" value="true" />
@@ -529,6 +544,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/Save.Api/Controllers/Bookmark/BookmarkController.cs" containingFunctionPresentation="Constructor 'BookmarkController'">
+            <startOffsets>
+              <option value="481" />
+            </startOffsets>
+            <endOffsets>
+              <option value="493" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
